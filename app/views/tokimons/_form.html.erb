@@ -1,44 +1,56 @@
 <%= form_for(@tokimon) do |f| %>
  <!-- if @tokimon.error.any> %> -->
 <div id="error_explanation">
+	<p>
 	<div class="field">
 		<%= f.label :name %><br>
 		<%= f.text_field :name %>
 	</div>
+	</p>
 	<div class="field">
 		<%= f.label :weight %><br>
 		<%= f.number_field :weight %>
 	</div>
+	<p>
 	<div class="field">
 		<%= f.label :height %><br>
 		<%= f.number_field :height %>
 	</div>
+</p>
 	<div class="field">
 		<%= f.label :fly %><br>
 		<%= f.number_field :fly %>
 	</div>
+	<p>
 	<div class="field">
 		<%= f.label :fight %><br>
 		<%= f.number_field :fight %>
 	</div>
+</p>
 	<div class="field">
 		<%= f.label :fire %><br>
 		<%= f.number_field :fire %>
 	</div>
+	<p>
 	<div class="field">
 		<%= f.label :water %><br>
 		<%= f.number_field :water %>
 	</div>
+</p>
 	<div class="field">
 		<%= f.label :electric %><br>
 		<%= f.number_field :electric %>
 	</div>
+	<p>
 	<div class="field">
 		<%= f.label :ice %><br>
 		<%= f.number_field :ice %>
 	</div>
-
-	<%= f.submit "" %>
+</p>
+<br>
+<p>
+	<%= f.submit "submit" %>
+</p>
 </div>
 <% end %>
 
