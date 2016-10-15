@@ -6,7 +6,9 @@ class TokimonsController < ApplicationController
 		@tokimons = Tokimon.all
 	end
 	def new
-		@tokimon = Tokimon.new
+		@trainer = Trainer.find(params[:id])
+		@tokimon = @trainer.tokimons.build
+
 	end
 	def create
 		@tokimon = Tokimon.new(tokimon_params)

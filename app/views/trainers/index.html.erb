@@ -4,9 +4,19 @@
 	<meta>
 </head>
 <body>
-<p> Tokimon !</p>
-
-<%= link_to 'Create Tokimon', new_tokimon_path %>
-<!-- = link_to 'Delete Tokimon', destroy_tokimon_path %> -->
+<h2> Trainers </h2>
+<p>
+	<% @trainers.each do |trainer| %>
+		<p>
+		<%= trainer.name %>
+		<%= link_to "View", trainer %> |
+		<%= link_to "Edit", edit_trainer_path(trainer) %> |
+		<%= link_to "Remove", {:confirm => "are you sure?", :action => 'delete', :id => trainer.id}, :class => 'action delete' %>
+		</p>
+	<% end %>
+	<br>
+<%= link_to 'New Trainer', new_trainer_path %> |
+<%= link_to 'Tokidex', tokimons_path %> 
+</p>
 </body>
 </html>

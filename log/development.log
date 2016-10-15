@@ -24352,3 +24352,1334 @@ Processing by TokimonsController#index as HTML
   [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
   Rendered tokimons/index.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:12:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.9ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 438ms (Views: 412.1ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:12:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:12:55 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:12:55 -0700
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:13:00 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (35.9ms)
+  Rendered tokimons/new.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 122ms (Views: 92.7ms | ActiveRecord: 5.3ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 05:13:12 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8ZrW7rZSx1ej342QhBRK9xgaZ/FAQy+gI8yZXP0KZqDtywKO0BbtuIuz/9rB79vA34n550vcS4uIKHB2kpyBdQ==", "tokimon"=>{"name"=>"squirt", "weight"=>"", "height"=>"", "fly"=>"", "fight"=>"", "fire"=>"", "water"=>"", "electric"=>"", "ice"=>""}, "commit"=>"submit"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "tokimons" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "squirt"], ["created_at", "2016-10-15 12:13:12.668882"], ["updated_at", "2016-10-15 12:13:12.668882"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons/39
+Completed 302 Found in 11ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/tokimons/39" for ::1 at 2016-10-15 05:13:12 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mTokimon Load (0.8ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  Rendered tokimons/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:13:15 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trainer" for ::1 at 2016-10-15 05:16:06 -0700
+
+ActionController::RoutingError (No route matches [GET] "/trainer"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.9ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:16:09 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:16:37 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:37 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:16:43 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:16:43 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:16:53 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:16:53 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:17:36 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:17:36 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:17:43 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:17:43 -0700
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:17:53 -0700
+Processing by TrainersController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant TrainersController::Trainers):
+  app/controllers/trainers_controller.rb:7:in `new'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.6ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:18:56 -0700
+Processing by TrainersController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant TrainersController::Trainers):
+  app/controllers/trainers_controller.rb:7:in `new'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.6ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:19:19 -0700
+Processing by TrainersController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant TrainersController::Trainers):
+  app/controllers/trainers_controller.rb:7:in `new'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.7ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:19:38 -0700
+Processing by TrainersController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant TrainersController::Trainers):
+  app/controllers/trainers_controller.rb:7:in `new'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.7ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:20:57 -0700
+Processing by TrainersController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant TrainersController::Trainers):
+  app/controllers/trainers_controller.rb:7:in `new'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.4ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:21:22 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (28.4ms)
+  Rendered trainers/new.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 87ms (Views: 60.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:21:22 -0700
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:21:39 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (2.4ms)
+  Rendered trainers/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 51ms (Views: 40.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:39 -0700
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:21:47 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (1.2ms)
+  Rendered trainers/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:21:47 -0700
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:22:16 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (1.2ms)
+  Rendered trainers/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:22:16 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:22:17 -0700
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:23:07 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (1.6ms)
+  Rendered trainers/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 18.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:23:07 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:07 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:23:08 -0700
+
+
+Started GET "/trainers/" for ::1 at 2016-10-15 05:23:10 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:23:22 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 33ms (Views: 26.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:23:30 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (6.2ms)
+  Rendered tokimons/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:25:11 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (6.2ms)
+  Rendered tokimons/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:25:11 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:11 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:11 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:11 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:25:12 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:25:12 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:12 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:12 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:25:12 -0700
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:25:46 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (14.5ms)
+  Rendered tokimons/new.html.erb within layouts/application (15.9ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `trainer' for #<Tokimon:0x007f83be3dd238>):
+     9: 	<p>
+    10: 		<div class="field">
+    11: 		<%= f.label :train %><br>
+    12: 		<%= f.text_field :trainer %>
+    13: 	</div>
+    14: </p>
+    15: 	<div class="field">
+  app/views/tokimons/_form.html.erb:12:in `block in _app_views_tokimons__form_html_erb__2047115120108043126_70101904597020'
+  app/views/tokimons/_form.html.erb:1:in `_app_views_tokimons__form_html_erb__2047115120108043126_70101904597020'
+  app/views/tokimons/new.html.erb:7:in `_app_views_tokimons_new_html_erb__716444617192559348_70101904082220'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.1ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:25:56 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (3.7ms)
+  Rendered tokimons/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `trainer' for #<Tokimon:0x007f83bab59560>):
+     9: 	<p>
+    10: 		<div class="field">
+    11: 		<%= f.label :trainer %><br>
+    12: 		<%= f.text_field :trainer %>
+    13: 	</div>
+    14: </p>
+    15: 	<div class="field">
+  app/views/tokimons/_form.html.erb:12:in `block in _app_views_tokimons__form_html_erb__2047115120108043126_70101904686400'
+  app/views/tokimons/_form.html.erb:1:in `_app_views_tokimons__form_html_erb__2047115120108043126_70101904686400'
+  app/views/tokimons/new.html.erb:7:in `_app_views_tokimons_new_html_erb__716444617192559348_70101904082220'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.1ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:27:20 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (12.1ms)
+  Rendered tokimons/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 64ms (Views: 49.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:27:21 -0700
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 05:27:33 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P4fTSDGQb8OCueKXePp08dZt7Cd2q6Kyb7m3L38D7xoj1gcoV9RFLKrVkN09AeXGEf5yMX00xpnEXV4FEJUIzw==", "tokimon"=>{"name"=>"Bulba", "trainer_id"=>"Cindy", "weight"=>"5", "height"=>"", "fly"=>"", "fight"=>"", "fire"=>"", "water"=>"", "electric"=>"", "ice"=>""}, "commit"=>"submit"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/tokimons_controller.rb:37:in `tokimon_params'
+  app/controllers/tokimons_controller.rb:12:in `create'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.5ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 05:28:40 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P4fTSDGQb8OCueKXePp08dZt7Cd2q6Kyb7m3L38D7xoj1gcoV9RFLKrVkN09AeXGEf5yMX00xpnEXV4FEJUIzw==", "tokimon"=>{"name"=>"Bulba", "trainer_id"=>"Cindy", "weight"=>"5", "height"=>"", "fly"=>"", "fight"=>"", "fire"=>"", "water"=>"", "electric"=>"", "ice"=>""}, "commit"=>"submit"}
+Unpermitted parameter: trainer_id
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tokimons" ("name", "weight", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bulba"], ["weight", 5], ["created_at", "2016-10-15 12:28:40.291517"], ["updated_at", "2016-10-15 12:28:40.291517"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons/40
+Completed 302 Found in 18ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/tokimons/40" for ::1 at 2016-10-15 05:28:40 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"40"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  Rendered tokimons/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:28:40 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:28:43 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/40" for ::1 at 2016-10-15 05:28:48 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"40"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  Rendered tokimons/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:28:51 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:29:46 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.8ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 48ms (Views: 38.8ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:29:46 -0700
+
+
+Started GET "/tokimons/38" for ::1 at 2016-10-15 05:29:48 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 38]]
+  Rendered tokimons/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 78ms (Views: 23.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tokimons/38" for ::1 at 2016-10-15 05:30:01 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  Rendered tokimons/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:30:01 -0700
+
+
+Started GET "/trainer" for ::1 at 2016-10-15 05:30:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/trainer"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (101.7ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:30:29 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:31:29 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:31:29 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:31:30 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:32:03 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:03 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:32:24 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:32:24 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:32:37 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.9ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:33:26 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:33:26 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:33:53 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:33:53 -0700
+
+
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:53 -0700
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:53 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:33:53 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:54 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:54 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:54 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:33:54 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:33:54 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:34:11 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:34:11 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:34:42 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers/new" for ::1 at 2016-10-15 05:34:44 -0700
+Processing by TrainersController#new as HTML
+  Rendered trainers/_form.html.erb (2.3ms)
+  Rendered trainers/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 31ms (Views: 20.9ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/trainers" for ::1 at 2016-10-15 05:34:51 -0700
+Processing by TrainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"euvSHSulY2V/YHTQhCABJWNgGpEWUVO4UVmwVHrCjc1mugZ9TeFJilcMBprB25ASpPOEhx3ON5P6vVl+FVRqGA==", "trainer"=>{"name"=>"Cindy"}, "commit"=>"submit"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "trainers" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "Cindy"], ["created_at", "2016-10-15 12:34:51.318192"], ["updated_at", "2016-10-15 12:34:51.318192"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/trainers/1
+Completed 302 Found in 10ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 05:34:51 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered trainers/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: 
+    2: <h2><%= @trainer.name %> </h2>
+    3: 
+    4: <br>
+    5: <p><%= link_to 'Create Tokimon', new_tokimon_path %></p>
+  app/views/trainers/show.html.erb:2:in `_app_views_trainers_show_html_erb__259080525448673631_70101866218060'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.0ms)
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 05:35:49 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered trainers/show.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: 
+    2: <h2><%= @trainers.name %> </h2>
+    3: 
+    4: <br>
+    5: <p><%= link_to 'Create Tokimon', new_tokimon_path %></p>
+  app/views/trainers/show.html.erb:2:in `_app_views_trainers_show_html_erb__259080525448673631_70101903049920'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.8ms)
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 05:37:05 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTrainer Load (0.8ms)[0m  SELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered trainers/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 17.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:37:05 -0700
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 05:37:25 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.6ms)[0m  [1mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered trainers/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:37:25 -0700
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 05:37:47 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTrainer Load (0.7ms)[0m  SELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered trainers/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 26.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:37:47 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:37:58 -0700
+Processing by TrainersController#index as HTML
+  Rendered trainers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:40:02 -0700
+Processing by TrainersController#index as HTML
+  [1m[36mTrainer Load (0.5ms)[0m  [1mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:40:02 -0700
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 05:57:14 -0700
+Processing by TrainersController#index as HTML
+  [1m[35mTrainer Load (0.5ms)[0m  SELECT "trainers".* FROM "trainers"
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `tokimons' for #<Trainer::ActiveRecord_Relation:0x007f83c01380f8>):
+  app/controllers/trainers_controller.rb:7:in `index'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.9ms)
+
+
+Started GET "/trainers" for ::1 at 2016-10-15 06:08:38 -0700
+Processing by TrainersController#index as HTML
+  [1m[35mTrainer Load (0.6ms)[0m  SELECT "trainers".* FROM "trainers"
+  Rendered trainers/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 47ms (Views: 37.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 06:08:38 -0700
+
+
+Started GET "/trainers/1" for ::1 at 2016-10-15 06:08:43 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.5ms)[0m  [1mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered trainers/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.5ms)

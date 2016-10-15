@@ -1,25 +1,27 @@
 class TrainersController < ApplicationController
 	def show
+		@trainer = Trainer.find(params[:id])
 	end 
 	def index
+		@trainers = Trainer.all
 	end
 	def new
-		@tokimon = Trainers.new
+		@trainer = Trainer.new
 	end
 	def create
-		@trainer = Trainers.new(tokimon_params)
+		@trainer = Trainer.new(trainer_params)
 		@trainer.save
 		redirect_to @trainer
 	end
 	def edit
-		@trainer = Trainers.find(params[:id])
+		@trainer = Trainer.find(params[:id])
 	end
 	def destroy
-		@trainer = Trainers.find(params[:id])
+		@trainer = Trainer.find(params[:id])
 		@trainer.destroy
 	end
 	private 
 	def trainer_params
-		params.require(:tokimon).permit(:name,:level)
+		params.require(:trainer).permit(:name,:level)
 	end
 end

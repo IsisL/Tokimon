@@ -1,3 +1,5 @@
+<h2> Edit <%= @trainer.name %> </h2>
+
 <%= form_for(@trainer) do |f| %>
  <!-- if @tokimon.error.any> %> -->
 <div id="error_explanation">
@@ -5,8 +7,6 @@
 		<%= f.label :name %><br>
 		<%= f.text_field :name %>
 	</div>
-	<br>
 	<%= f.submit "submit" %>
 </div>
 <% end %>
-

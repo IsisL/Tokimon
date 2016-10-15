@@ -1,12 +1,17 @@
 <%= form_for(@tokimon) do |f| %>
  <!-- if @tokimon.error.any> %> -->
 <div id="error_explanation">
-	<p>
+	<br>
 	<div class="field">
 		<%= f.label :name %><br>
 		<%= f.text_field :name %>
 	</div>
-	</p>
+	<p>
+		<div class="field">
+		<%= f.label :trainer %><br>
+		<%= f.text_field :trainer_id %>
+	</div>
+</p>
 	<div class="field">
 		<%= f.label :weight %><br>
 		<%= f.number_field :weight %>
