@@ -22,3 +22,4 @@ class TrainersController < ApplicationController
 	def trainer_params
 		params.require(:tokimon).permit(:name,:level)
 	end
+end
