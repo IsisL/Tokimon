@@ -12,7 +12,7 @@
 		<%= tokimon.name %>
 		<%= link_to "View", tokimon %> |
 		<%= link_to "Edit", edit_tokimon_path(tokimon) %> |
-		<%= link_to "Transfer", tokimon, :data=>{:confirm => "Are you sure?"}, :method => :delete %>
+		<%= link_to "Transfer", {:confirm => "are you sure?", :action => 'delete', :id => tokimon.id}, :class => 'action delete' %>
 		</p>
 	<% end %>
 </p>

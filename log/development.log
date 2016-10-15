@@ -21721,3 +21721,2634 @@ Processing by TokimonsController#show as HTML
   [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 5]]
   Rendered tokimons/show.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/5" for ::1 at 2016-10-15 04:09:00 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTokimon Load (2.1ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered tokimons/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 490ms (Views: 439.5ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:09:01 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:09:03 -0700
+Processing by TokimonsController#index as HTML
+  Rendered tokimons/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+...}, :class => 'action delete') );@output_buffer.safe_append='
+...                               ^):
+  app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:00 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:10:00 -0700
+
+
+Started GET "/tokimons/delete/5" for ::1 at 2016-10-15 04:10:02 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 5]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 5]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 7ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:02 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/6" for ::1 at 2016-10-15 04:10:06 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 6]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:06 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/7" for ::1 at 2016-10-15 04:10:07 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 7]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:07 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.9ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tokimons/delete/8" for ::1 at 2016-10-15 04:10:08 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 8]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:08 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.9ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tokimons/delete/9" for ::1 at 2016-10-15 04:10:09 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 9]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:09 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/10" for ::1 at 2016-10-15 04:10:09 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 10]]
+  [1m[35m (8.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:09 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/11" for ::1 at 2016-10-15 04:10:10 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 11]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:10 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/12" for ::1 at 2016-10-15 04:10:10 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 12]]
+  [1m[35m (8.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:10 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:13 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:10:13 -0700
+
+
+Started GET "/tokimons/delete/13" for ::1 at 2016-10-15 04:10:16 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 13]]
+  [1m[35m (8.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:16 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/14" for ::1 at 2016-10-15 04:10:17 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 14]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 14ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:17 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/15" for ::1 at 2016-10-15 04:10:18 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 15]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:18 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/16" for ::1 at 2016-10-15 04:10:18 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 16]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:18 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/17" for ::1 at 2016-10-15 04:10:19 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 17]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:19 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/18" for ::1 at 2016-10-15 04:10:19 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 18]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:19 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/19" for ::1 at 2016-10-15 04:10:21 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 19]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:21 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/20" for ::1 at 2016-10-15 04:10:22 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 20]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:22 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/21" for ::1 at 2016-10-15 04:10:22 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 21]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:22 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/23" for ::1 at 2016-10-15 04:10:23 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"23"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 23]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 11ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:23 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/25" for ::1 at 2016-10-15 04:10:23 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 25]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 25]]
+  [1m[35m (8.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:23 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/26" for ::1 at 2016-10-15 04:10:24 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"26"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 26]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 26]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:24 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/27" for ::1 at 2016-10-15 04:10:24 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 27]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 27]]
+  [1m[35m (8.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:24 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/28" for ::1 at 2016-10-15 04:10:25 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 28]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 28]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:25 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.9ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tokimons/delete/29" for ::1 at 2016-10-15 04:10:25 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 29]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:25 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/30" for ::1 at 2016-10-15 04:10:26 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 30]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:26 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/31" for ::1 at 2016-10-15 04:10:26 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 31]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 31]]
+  [1m[35m (8.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:26 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/delete/32" for ::1 at 2016-10-15 04:10:26 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 32]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 32]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:27 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/33" for ::1 at 2016-10-15 04:10:27 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 33]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 33]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:27 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/delete/34" for ::1 at 2016-10-15 04:10:28 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"34"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 34]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 34]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:28 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/delete/4" for ::1 at 2016-10-15 04:10:28 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTokimon Load (0.3ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 4]]
+  [1m[35m (8.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:28 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:10:34 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:10:34 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:11:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 444ms (Views: 421.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:11:48 -0700
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 04:11:51 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (35.1ms)
+  Rendered tokimons/new.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 119ms (Views: 91.4ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 04:12:15 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/CpmGkP9kO/P9Zqp0z0Yo9wD/QhasvNj8mz0ql4cba7ge7J6Jbm6AOeZ6OOWxomUG5BjHlEtl0hZiB2AMYqKew==", "tokimon"=>{"name"=>"pika", "weight"=>"1", "height"=>"2", "fly"=>"", "fight"=>"2", "fire"=>"", "water"=>"", "electric"=>"10", "ice"=>""}, "commit"=>"submit"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "tokimons" ("name", "weight", "height", "fight", "electric", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["name", "pika"], ["weight", 1], ["height", 2], ["fight", 2], ["electric", 10], ["created_at", "2016-10-15 11:12:15.881558"], ["updated_at", "2016-10-15 11:12:15.881558"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons/35
+Completed 302 Found in 26ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/tokimons/35" for ::1 at 2016-10-15 04:12:15 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 35]]
+  Rendered tokimons/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:12:20 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/35" for ::1 at 2016-10-15 04:12:23 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 35]]
+  Rendered tokimons/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:12:25 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/35" for ::1 at 2016-10-15 04:13:06 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"35"}
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 35]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "tokimons" WHERE "tokimons"."id" = $1  [["id", 35]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:13:06 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 04:13:09 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (23.3ms)
+  Rendered tokimons/new.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 04:13:20 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9qv/aGVTIgnjO/aBV+0uW9+RqXGnYsv5KN+mOta2Pt7q+isIAxcI5stXhMsSFr9sGAI3Z6z9r9KDO08QuSDZCw==", "tokimon"=>{"name"=>"Pika", "weight"=>"2", "height"=>"2", "fly"=>"", "fight"=>"", "fire"=>"", "water"=>"", "electric"=>"10", "ice"=>""}, "commit"=>"submit"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tokimons" ("name", "weight", "height", "electric", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "Pika"], ["weight", 2], ["height", 2], ["electric", 10], ["created_at", "2016-10-15 11:13:20.835874"], ["updated_at", "2016-10-15 11:13:20.835874"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tokimons/36
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:13:20 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:16:41 -0700
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/controllers/tokimons_controller.rb:44: syntax error, unexpected end-of-input, expecting keyword_end
+	# <p><%= submit_tag "Save" %></p>
+	                                 ^):
+  app/controllers/tokimons_controller.rb:44: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.3ms)
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:17:36 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 21.9ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:17:36 -0700
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 04:17:37 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (3.8ms)
+  Rendered tokimons/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 04:17:59 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hKkczkx2fiNSiK0GppjWs5OnQ7RI/o4l36SkCt3oCsWY+MiuKjJUzHrk30zjY0eEVDTdokNh6g50QE0gsn7tEA==", "tokimon"=>{"name"=>"bulba", "weight"=>"5", "height"=>"2", "fly"=>"", "fight"=>"4", "fire"=>"", "water"=>"", "electric"=>"", "ice"=>""}, "commit"=>"submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (17.4ms)[0m  [1mINSERT INTO "tokimons" ("name", "weight", "height", "fight", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "bulba"], ["weight", 5], ["height", 2], ["fight", 4], ["created_at", "2016-10-15 11:17:59.410393"], ["updated_at", "2016-10-15 11:17:59.410393"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons/37
+Completed 302 Found in 24ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/tokimons/37" for ::1 at 2016-10-15 04:17:59 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  Rendered tokimons/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:18:01 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons/delete/37" for ::1 at 2016-10-15 04:18:04 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  Rendered tokimons/delete.html.erb within layouts/application (67.1ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `action' for #<#<Class:0x007fa86fc1c450>:0x007fa86fb961e8>):
+    1: <div class="delete">
+    2: 	<%=form_for(:tokimon, :url=>{action=>'destroy',:id => @tokimon.id}) do |f| -%>
+    3: 	<p> Are you sure you want to transfer <%= @tokimon.name %> to professor Maple? </p>
+    4: 	<div class="form-buttons">
+    5: 		<%= submit_tag("yes")%>
+  app/views/tokimons/delete.html.erb:2:in `_app_views_tokimons_delete_html_erb__2492353576912261253_70180702824100'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.3ms)
+
+
+Started GET "/tokimons/delete/37" for ::1 at 2016-10-15 04:19:32 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 37]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:19:32 -0700
+
+
+Started POST "/tokimons/37" for ::1 at 2016-10-15 04:19:37 -0700
+
+AbstractController::ActionNotFound (The action '37' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started POST "/tokimons/37" for ::1 at 2016-10-15 04:20:28 -0700
+
+AbstractController::ActionNotFound (The action '37' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:20:30 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (1.9ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 54ms (Views: 44.1ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 04:20:33 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.8ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 63ms (Views: 17.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:20:35 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:22:43 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:22:46 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 04:22:48 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:22:49 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:23:55 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:23:55 -0700
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 04:23:56 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:23:57 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:24:23 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 04:24:24 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:28:15 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:29:52 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.3ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:29:52 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:30:16 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:30:20 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 04:31:40 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:31:41 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 04:33:28 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (4.0ms)
+  Rendered tokimons/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 35ms (Views: 21.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 04:37:56 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (5.4ms)
+  Rendered tokimons/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 44ms (Views: 29.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:37:56 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:37:59 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:38:01 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:38:02 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:39:02 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (1.0ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 460ms (Views: 436.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:39:05 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42ms (Views: 17.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:39:07 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:40:12 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.9ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:40:13 -0700
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:40:13 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.9ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 8.2ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+...uffer.append=( f.submit "yes" :value=>"Delete" );@output_buf...
+...                               ^):
+  app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (99.1ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:44:52 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+...uffer.append=( f.submit "yes" :value=>"Delete" );@output_buf...
+...                               ^):
+  app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.0ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:44:57 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:44:59 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+...uffer.append=( f.submit "yes" :value=>"Delete" );@output_buf...
+...                               ^):
+  app/views/tokimons/delete.html.erb:3: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:45:48 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:45:49 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tokimons/36" for ::1 at 2016-10-15 04:45:51 -0700
+
+AbstractController::ActionNotFound (The action '36' could not be found for TokimonsController):
+  actionpack (4.2.6) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+  puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+  puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+  puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `call'
+  puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:50:09 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:4: syntax error, unexpected ')', expecting :: or '[' or '.'
+...uffer.append=( f.submit,"yes" );@output_buffer.safe_append='
+...                               ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:6: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;	 end 
+         	    ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:11: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/tokimons/delete.html.erb:4: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/tokimons/delete.html.erb:6: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tokimons/delete.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/tokimons/delete.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.2ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:50:13 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.7ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:50:15 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:4: syntax error, unexpected ')', expecting :: or '[' or '.'
+...uffer.append=( f.submit,"yes" );@output_buffer.safe_append='
+...                               ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:6: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;	 end 
+         	    ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:11: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/tokimons/delete.html.erb:4: syntax error, unexpected ')', expecting :: or '[' or '.'
+  app/views/tokimons/delete.html.erb:6: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tokimons/delete.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/tokimons/delete.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.5ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:50:29 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:4: syntax error, unexpected tLABEL, expecting '='
+...uffer.append=( f.submit, class: "yes" );@output_buffer.safe_...
+...                               ^):
+  app/views/tokimons/delete.html.erb:4: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.5ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:50:34 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:50:35 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/delete.html.erb:4: syntax error, unexpected tLABEL, expecting '='
+...uffer.append=( f.submit, class: "yes" );@output_buffer.safe_...
+...                               ^):
+  app/views/tokimons/delete.html.erb:4: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.1ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:51:45 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:51:45 -0700
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:51:48 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/delete/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:51:50 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.8ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/delete.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons/" for ::1 at 2016-10-15 04:52:11 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:52:11 -0700
+
+
+Started GET "/tokimons/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:52:12 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:52:16 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[36mTokimon Load (0.8ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tokimons/36?confirm=Are+you+sure%3F" for ::1 at 2016-10-15 04:56:59 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"confirm"=>"Are you sure?", "id"=>"36"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:56:59 -0700
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:01 -0700
+Processing by TokimonsController#index as HTML
+  Rendered tokimons/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting '}'
+... {:confirm => "Are you sure?" );@output_buffer.safe_append='
+...                               ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;	 end 
+         	    ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting '}'
+  app/views/tokimons/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tokimons/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/tokimons/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:04 -0700
+Processing by TokimonsController#index as HTML
+  Rendered tokimons/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting '}'
+... {:confirm => "Are you sure?" );@output_buffer.safe_append='
+...                               ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;	 end 
+         	    ^
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting '}'
+  app/views/tokimons/index.html.erb:17: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tokimons/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/tokimons/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:33 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:57:33 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:57:34 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:36 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:50 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:57:50 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:57:51 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:57:53 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:59:15 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 55ms (Views: 41.8ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:16 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:59:17 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:59:19 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:59:49 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 04:59:49 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 04:59:50 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 04:59:51 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:16 -0700
+Processing by TokimonsController#index as HTML
+  Rendered tokimons/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/isis/Desktop/Cmpt276/A2/Tokimon/app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+...}, :class => 'action delete') );@output_buffer.safe_append='
+...                               ^):
+  app/views/tokimons/index.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/isis/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.9ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:25 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 39ms (Views: 33.4ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:25 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 05:06:26 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 19.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:28 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:36 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:06:36 -0700
+
+
+Started GET "/tokimons/36" for ::1 at 2016-10-15 05:06:37 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.5ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  Rendered tokimons/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:39 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.5ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:56 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.7ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 33ms (Views: 25.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:06:56 -0700
+
+
+Started GET "/tokimons/delete/36" for ::1 at 2016-10-15 05:06:57 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mTokimon Load (0.3ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 36]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", "36"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 36]]
+  [1m[35m (8.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 27ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:06:57 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:08:00 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ae6c76300d43e1349ed76d2dc69fdd03610fd86a22eaf0a7eacf58e708b0af85.js?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/say.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/trainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/theme.self-f57a797e3016705207c46033e0a0981813c2e2d70047c5331dcca97ead1f26d7.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/tokimons.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/assets/widgets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-10-15 05:08:00 -0700
+
+
+Started GET "/tokimons/delete/37?confirm=are+you+sure%3F" for ::1 at 2016-10-15 05:08:01 -0700
+Processing by TokimonsController#delete as HTML
+  Parameters: {"confirm"=>"are you sure?", "id"=>"37"}
+  [1m[35mTokimon Load (0.4ms)[0m  SELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", "37"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "tokimons" WHERE "tokimons"."id" = $1[0m  [["id", 37]]
+  [1m[35m (8.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons
+Completed 302 Found in 14ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:08:01 -0700
+Processing by TokimonsController#index as HTML
+  [1m[36mTokimon Load (0.6ms)[0m  [1mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons/new" for ::1 at 2016-10-15 05:08:03 -0700
+Processing by TokimonsController#new as HTML
+  Rendered tokimons/_form.html.erb (54.8ms)
+  Rendered tokimons/new.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 86ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tokimons" for ::1 at 2016-10-15 05:08:45 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ODGD5bxAaqgg43V7CmuFw40B938l8rj8qPzoXI+Sx68kYFeF2gRARwiPBzFPkBT0SpJpaS5t3NcDGAF24AQgeg==", "tokimon"=>{"name"=>"peekatchyoo", "weight"=>"2", "height"=>"3", "fly"=>"", "fight"=>"", "fire"=>"", "water"=>"", "electric"=>"10", "ice"=>""}, "commit"=>"submit"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "tokimons" ("name", "weight", "height", "electric", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "peekatchyoo"], ["weight", 2], ["height", 3], ["electric", 10], ["created_at", "2016-10-15 12:08:45.723009"], ["updated_at", "2016-10-15 12:08:45.723009"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/tokimons/38
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/tokimons/38" for ::1 at 2016-10-15 05:08:45 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mTokimon Load (0.3ms)[0m  [1mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  Rendered tokimons/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tokimons" for ::1 at 2016-10-15 05:08:47 -0700
+Processing by TokimonsController#index as HTML
+  [1m[35mTokimon Load (0.6ms)[0m  SELECT "tokimons".* FROM "tokimons"
+  Rendered tokimons/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.6ms)

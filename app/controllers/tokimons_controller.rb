@@ -27,9 +27,9 @@ class TokimonsController < ApplicationController
 			render "edit"
 		end
 	end
-	def destroy
+	def delete
 		@tokimon = Tokimon.find(params[:id])
-		@tokimon.destroy
+		Tokimon.find(params[:id]).destroy
 		redirect_to tokimons_path, :notice => "Tokimon has been transferred to Professor Maple"
 	end
 	private 

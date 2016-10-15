@@ -1,4 +1,14 @@
 
 <h2><%= @tokimon.name %> </h2>
+<p> Weight: <%= @tokimon.weight %></p>
+<p> Height: <%= @tokimon.height %></p>
+<p> Flying: <%= @tokimon.fly %></p>
+<p> Fighting: <%= @tokimon.fight %></p>
+<p> Fire: <%= @tokimon.fire %></p>
+<p> Water: <%= @tokimon.water %></p>
+<p> Electric: <%= @tokimon.electric %></p>
+<p> Ice: <%= @tokimon.ice %></p>
+
+<br>
 <p><%= link_to 'Create Tokimon', new_tokimon_path %></p>
 <p><%= link_to 'Back', tokimons_path %></p>
