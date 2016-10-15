@@ -1,0 +1,11 @@
+<%= form_for(@tokimon) do |f| %>
+ <!-- if @tokimon.error.any> %> -->
+<div id="error_explanation">
+	<div class="field">
+		<%= f.label :name %><br>
+		<%= f.text_field :name %>
+	</div>
+	<%= f.submit "" %>
+</div>
+<% end %>
+
